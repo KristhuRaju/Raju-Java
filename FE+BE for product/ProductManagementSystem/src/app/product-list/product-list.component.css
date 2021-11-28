@@ -1,0 +1,13 @@
+h1 {                
+  color: white;
+  text-align: center;
+  background-color: rgb(151, 147, 144);
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(3, 17, 1);
+  background-color: rgb(246, 240, 255);
+} 

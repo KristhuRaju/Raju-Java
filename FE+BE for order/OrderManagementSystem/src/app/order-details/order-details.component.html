@@ -1,0 +1,21 @@
+
+
+<h2>Order Details</h2> 
+
+<hr/>
+<div *ngIf="order">
+  <div>
+    <label><b>Productid: </b></label> {{order.productid}}
+  </div>
+  <div>
+    <label><b>Productname: </b></label> {{order.productname}}
+  </div>
+  <div>
+    <label><b>Quantity: </b></label> {{order.quantity}}
+  </div> 
+  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Order List</button><br>
