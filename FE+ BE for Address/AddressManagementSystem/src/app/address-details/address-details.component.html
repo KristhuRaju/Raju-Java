@@ -1,0 +1,31 @@
+
+
+
+<h2>Address Details</h2> 
+
+<hr/>
+<div *ngIf="address">
+  <div>
+    <label><b>Housename: </b></label> {{address.housename}}
+  </div>
+  <div>
+    <label><b>Houseaddress: </b></label> {{address.houseaddress}}
+  </div>
+  <div>
+    <label><b>District: </b></label> {{address.district}}
+  </div> 
+  <div>
+    <label><b>City: </b></label> {{address.city}}
+  </div> 
+  <div>
+    <label><b>Housestate: </b></label> {{address.housestate}}
+  </div> 
+  <div>
+    <label><b>Zip: </b></label> {{address.zip}}
+  </div> 
+  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Address List</button><br>

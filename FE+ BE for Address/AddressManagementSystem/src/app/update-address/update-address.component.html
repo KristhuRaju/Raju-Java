@@ -1,0 +1,39 @@
+
+<h3>Update Address</h3>
+<div  style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Housename</label>
+      <input type="text" class="form-control" id="housename" required [(ngModel)]="address.housename" name="housename">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Houseaddress</label>
+      <input type="text" class="form-control" id="houseaddress" required [(ngModel)]="address.houseaddress" name="houseaddress">
+    </div>
+
+    <div class="form-group">
+      <label for="name">District</label>
+      <input type="text" class="form-control" id="district" required [(ngModel)]="address.district" name="district">
+    </div>
+    <div class="form-group">
+        <label for="name">City</label>
+        <input type="text" class="form-control" id="city" required [(ngModel)]="address.city" name="city">
+      </div>
+      <div class="form-group">
+        <label for="name">Housestate</label>
+        <input type="text" class="form-control" id="housestate" required [(ngModel)]="address.housestate" name="housestate">
+      </div>
+      <div class="form-group">
+        <label for="name">Zip</label>
+        <input type="text" class="form-control" id="zip" required [(ngModel)]="address.zip" name="zip">
+      </div>
+
+    
+
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+
